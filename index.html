@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(./wp3138532.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .main {
+            height: 90%;
+            width: 50%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        .breakfast {
+            width: 70%;
+            background-color: rgb(15, 42, 122);
+        }
+       
+        .content {
+            display: flex;
+            justify-content: space-around
+        } 
+
+
+        .foodprice {
+            margin-top: 70px;
+        }
+
+        hr {
+            width: 80%;
+        }
+
+        @media (max-width: 680px) {
+            .main {
+                width: 100%;
+            }
+
+            .breakfast {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+       <div class="main"> 
+        <h1>Food Menu</h1>
+        <div class="breakfast">
+            <h2>Breakfast</h2>
+            <hr />
+            <div class="content">
+            <div>
+                <div>
+                  <h3>Hawaiian Breakfast</h3>
+                  <p>A delicious breakfast with a hawaiian flair.</p>
+                </div>
+                <div>
+                    <h3>Bacon and Egg Breakfast</h3>
+                    <p>A breakfast classic to get you through the day.</p>
+                </div>
+                <div>
+                    <h3>Ham and Cheese Breakfast</h3>
+                    <p>Ham with cheese melted just right.</p>
+                </div>
+            </div>
+            <div>
+            <h3>$10.99</h3>
+            <h3 class="foodprice">$7.99</h3>
+            <h3 class="foodprice">$8.99</h3>
+          </div>
+        </div>
+       </div>
+       <div class="breakfast">
+        <h2>Lunch</h2>
+        <hr />
+        <div class="content">
+        <div>
+            <div>
+              <h3>Cheese Burger</h3>
+              <p>Our classic burger with our own sauce.</p>
+            </div>
+            <div>
+                <h3>Club Sandwich</h3>
+                <p>A tasty sandwhich with toast, bacon, and avacado.</p>
+            </div>
+            <div>
+                <h3>Pot Roast</h3>
+                <p>Slow cooked pot roast made to perfection.</p>
+            </div>
+        </div>
+        <div>
+        <h3>$12.99</h3>
+        <h3 class="foodprice">$10.99</h3>
+        <h3 class="foodprice">$14.99</h3>
+      </div>
+    </div>
+   </div>
+   <div class="breakfast">
+    <h2>Dinner</h2>
+    <hr />
+    <div class="content">
+    <div>
+        <div>
+          <h3>Cheese Burger</h3>
+          <p>Our classic burger with our own sauce.</p>
+        </div>
+        <div>
+            <h3>Club Sandwich</h3>
+            <p>A tasty sandwhich with toast, bacon, and avacado.</p>
+        </div>
+        <div>
+            <h3>Pot Roast</h3>
+            <p>Slow cooked pot roast made to perfection.</p>
+        </div>
+    </div>
+    <div>
+    <h3>$13.99</h3>
+    <h3 class="foodprice">$11.99</h3>
+    <h3 class="foodprice">$15.99</h3>
+  </div>
+</div>
+</div>
+    </div>
+
+</body>
+</html>
